@@ -1,0 +1,15 @@
+2025-06-14 00:18:48 DEBUG TestNG:82 - suiteXmlPath: "C:\eclipse-workspace\OpencartV121\master.xml"
+2025-06-14 00:18:54 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-06-14 00:18:54 DEBUG TC_001_AccountRegistrationTest:16 - This is a debug log message
+2025-06-14 00:19:04 ERROR TC_001_AccountRegistrationTest:52 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42dce759c5011edf8072b2271bf6664d, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58439/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42dce759c5011edf8072b2271bf6664d
+2025-06-14 00:19:04 INFO  TC_001_AccountRegistrationTest:57 - ***** Finished TC001_AccountRegistrationTest *****
+2025-06-14 00:19:11 INFO  TC_002_LoginTest:17 - **** Starting TC_002_LoginTest  ****
+2025-06-14 00:19:11 DEBUG TC_002_LoginTest:18 - capturing application debug logs....
